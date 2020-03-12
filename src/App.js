@@ -11,7 +11,7 @@ class App extends Component {
     this.getFlower();
   }
   getFlower() {
-    fetch('/flower')
+    fetch('http://csci571-hw8.us-east-1.elasticbeanstalk.com/flower')
       .then(response => response.json())
       .then(data => {
         this.setState({
