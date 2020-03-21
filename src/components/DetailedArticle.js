@@ -12,23 +12,26 @@ class DetailedArticle extends Component {
         this.state = {
             isLoading: false,
             data: [],
-            id: this.props.location.search.slice(4),
+            id: "",
         };
     }
 
     fetchData = () => {
         this.setState({isLoading: true});
-        let url = BACKEND_ROOT + GUARDIAN + "/article?id=" + this.state.id;
-        if (this.state.id.startsWith("http")) {
-            url = BACKEND_ROOT + NYT + "/article?id=" + this.state.id;
+        const id = this.props.location.search.slice(4);
+        let url = BACKEND_ROOT + GUARDIAN + "/article?id=" + id;
+        if (id.startsWith("http")) {
+            url = BACKEND_ROOT + NYT + "/article?id=" + id;
         }
 
+        console.log(url);
         fetch(url)
             .then(res => res.json())
             .then(json => {
                 this.setState({
                     data: json["response"][0],
                     isLoading: false,
+                    id: id,
                 });
                 // console.log(json["response"][0]);
             });
