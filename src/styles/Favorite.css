@@ -1,0 +1,12 @@
+.FavoriteDisplay {
+    margin: 1.5%;
+    width: 97%;
+}
+
+.FavoriteDisplayTitleWithResults {
+    padding-left: 15px;
+}
+
+.FavoriteDisplayTitleWithNoResults {
+    text-align: center;
+}

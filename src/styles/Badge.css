@@ -1,0 +1,44 @@
+.badge-container {
+    line-height: 1.3;
+}
+
+.badge-section {
+    margin-right: 3%;
+}
+
+.badge-world {
+    background-color: #7454f6;
+    color: white;
+}
+
+.badge-politics {
+    background-color: #569288;
+    color: white;
+}
+
+.badge-business {
+    background-color: #5797e5;
+    color: white;
+}
+
+.badge-technology {
+    background-color: #d2da59;
+}
+
+.badge-sports {
+    background-color: #efc35c;
+}
+
+.badge-other {
+    background-color: #6f757b;
+    color: white;
+}
+
+.badge-guardian {
+    background-color: #172848;
+    color: white;
+}
+
+.badge-nyt {
+    background-color: #dddddd;
+}

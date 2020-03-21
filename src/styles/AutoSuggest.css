@@ -1,0 +1,21 @@
+.AutoSuggest {
+    width: 20%;
+}
+
+@media(max-width: 1000px) {
+    .AutoSuggest {
+        width: 35%;
+    }
+}
+
+@media(max-width: 800px) {
+    .AutoSuggest {
+        width: 50%;
+    }
+}
+
+@media(max-width: 555px) {
+    .AutoSuggest {
+        width: 75%;
+    }
+}

@@ -1,0 +1,28 @@
+.ContentCard {
+    margin-bottom: 3%;
+    box-shadow: 0 5px 10px #bbbbbb;
+}
+
+.ContentBody {
+    color: black;
+    padding: 1.1rem;
+}
+
+.ContentCardTitle {
+    display: flex;
+    flex-direction: row;
+}
+
+.ContentCard a {
+    color: black;
+}
+
+.line-clamp-3 {
+    /* Required declarations: */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+
+    /* Limit the text block to three lines */
+    -webkit-line-clamp: 3;
+}

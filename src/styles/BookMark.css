@@ -1,0 +1,18 @@
+.BookMarkWhite {
+    color: white;
+    margin-right: 10px;
+    object-fit: cover;
+    height: 20px;
+}
+
+.BookMarkRed {
+    color: red;
+    margin-right: 10px;
+    object-fit: cover;
+    height: 20px;
+    cursor: pointer;
+}
+
+.BookMarkNotify {
+    color: black;
+}

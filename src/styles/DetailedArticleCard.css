@@ -1,0 +1,31 @@
+.DetailedArticleCard {
+    box-shadow: 0 5px 10px #bbbbbb;
+    margin-bottom: 5%;
+}
+
+.DetailedArticleCardBody {
+    margin: 1.5rem;
+}
+
+.DetailedArticleCardTitle {
+    /*line-height: 1.5;*/
+}
+
+.DetailedArticleCardDate {
+    margin-bottom: 1rem;
+}
+
+.DetailedArticleCardShare {
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.DetailedArticleCard img {
+    width: 100%;
+}
+
+.DetailedArticleCardToggle {
+    float: right;
+    color: black;
+}
+

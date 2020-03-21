@@ -1,0 +1,20 @@
+@import "ContentContainer.css";
+@import 'CardShareIcon.css';
+@import 'AutoSuggest.css';
+@import 'BookMark.css';
+@import 'ContentCard.css';
+@import "TopNavbar.css";
+@import 'SmallContentCard.css';
+@import 'LoadingSpinner.css';
+@import 'DetailedArticleCard.css';
+@import 'Badge.css';
+@import 'SearchDisplay.css';
+@import 'Favorite.css';
+
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
+

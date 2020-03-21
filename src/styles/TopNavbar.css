@@ -1,0 +1,7 @@
+.TopNavbar {
+    width: 100%;
+}
+
+.bg-custom {
+    background-image: linear-gradient(to right, #1D2846 0%, #536EAC 100%);
+}

@@ -1,0 +1,12 @@
+.SearchDisplay {
+    margin: 1.5%;
+    width: 97%;
+}
+
+.SearchDisplayTitleWithResults {
+    padding-left: 15px;
+}
+
+.SearchDisplayTitleWithNoResults {
+    text-align: center;
+}

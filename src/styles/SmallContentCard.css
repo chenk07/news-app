@@ -1,0 +1,42 @@
+.SmallContentCard {
+    box-shadow: 0 5px 10px #bbbbbb;
+    margin-bottom: 10%;
+    /*flex-basis: 23%;*/
+    /*margin: 0 1% 2% 1%;*/
+}
+
+.SmallContentBody {
+    margin: 5% 5% 7% 5%;
+}
+
+.SmallContentCardTitle {
+    line-height: 1.5;
+}
+
+.SmallContentCardDate {
+    margin-top: 5%;
+}
+
+.SmallContentCard a {
+    color: black;
+}
+
+/*@media(max-width: 1073px) {*/
+/*    .SmallContentCard {*/
+/*        flex-basis: 30.33%;*/
+/*        margin: 0 1.5% 2% 1.5%;*/
+/*    }*/
+/*}*/
+
+/*@media(max-width: 790px) {*/
+/*    .SmallContentCard {*/
+/*        flex-basis: 45%;*/
+/*        margin: 0 2.5% 2% 2.5%;*/
+/*    }*/
+/*}*/
+
+/*@media(max-width: 555px) {*/
+/*    .SmallContentCard {*/
+/*        flex-basis: 100%;*/
+/*    }*/
+/*}*/
