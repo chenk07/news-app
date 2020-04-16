@@ -1,6 +1,6 @@
 export const BACKEND_ROOT = 'https://newsapp-env.eba-yymtrxit.us-east-1.elasticbeanstalk.com/';
 export const AUTO_SUGGESTION_API_ROOT = 'https://api.cognitive.microsoft.com/bing/v7.0/suggestions?mkt=fr-FR&q=';
-export const AUTO_SUGGESTION_API_KEY = '387a1f27b4304ab79c7d51db5f1baaab';
+export const AUTO_SUGGESTION_API_KEY = '1d7c1cc274ac44c1b202f71fd3baf0b4';
 export const GUARDIAN = 'guardian';
 export const NYT = 'nyt';
 export const TWITTER_HASH_TAG = ["CSCI_571_NewsApp"];
